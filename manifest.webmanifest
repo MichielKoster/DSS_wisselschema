@@ -1,0 +1,11 @@
+{
+  "name": "Wisselschema D-jeugd",
+  "short_name": "Wisselschema",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#1d5fc4",
+  "lang": "nl",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

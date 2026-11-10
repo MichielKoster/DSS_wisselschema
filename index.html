@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Wisselschema D-jeugd</title>
+  <meta name="theme-color" content="#1d5fc4">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Supabase client (vaste versie) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+</head>
+<body>
+  <header class="topbar" id="topbar" hidden>
+    <div class="topbar-in">
+      <a class="brand" href="#/wedstrijden"><span class="brand-mark" aria-hidden="true"></span><span>Wisselschema <small id="team-name"></small></span></a>
+      <nav class="tabs" aria-label="Hoofdmenu">
+        <a href="#/wedstrijden" data-tab="wedstrijden">Wedstrijden</a>
+        <a href="#/selectie" data-tab="selectie">Selectie</a>
+        <a href="#/team" data-tab="team">Coaches</a>
+      </nav>
+      <div class="who"><span id="who-email"></span><button class="link" id="b-logout">Uitloggen</button></div>
+    </div>
+  </header>
+
+  <div id="localbanner" class="banner" hidden>Lokale modus: gegevens staan alleen in deze browser. Vul <code>js/config.js</code> in om met het team te delen.</div>
+
+  <main id="app" class="wrap" aria-live="polite"></main>
+  <div id="toast" class="toast" role="status" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
