@@ -26,7 +26,7 @@ De app is een statische website (HTML, CSS en JavaScript) voor GitHub Pages. De 
 
 ### 3. Inloggen instellen
 1. Ga naar **Authentication → URL Configuration**.
-2. Vul bij **Site URL** het adres van de app in: `https://<jouw-github-naam>.github.io/<repo-naam>/`
+2. Vul bij **Site URL** het adres van de app in: `https://michielkoster.github.io/DSS_wisselschema/`
 3. Voeg hetzelfde adres toe onder **Redirect URLs**.
 4. Bij **Authentication → Providers → Email** moet *Email* aan staan. *Confirm email* mag aan blijven: nieuwe coaches bevestigen dan eerst hun adres.
 
@@ -45,7 +45,7 @@ De app is een statische website (HTML, CSS en JavaScript) voor GitHub Pages. De 
 ### 5. Publiceren met GitHub Pages
 1. Ga in de repository naar **Settings → Pages**.
 2. Kies bij *Source* **Deploy from a branch**, met branch `main` en map `/ (root)`. Klik op Save.
-3. Na een minuut staat de app op `https://<jouw-github-naam>.github.io/<repo-naam>/`.
+3. Na een minuut staat de app op `https://michielkoster.github.io/DSS_wisselschema/`.
 
 ### 6. Eerste keer inloggen
 1. Open de app en kies **Account aanmaken**. Gebruik het e-mailadres uit stap 2 en kies een wachtwoord.

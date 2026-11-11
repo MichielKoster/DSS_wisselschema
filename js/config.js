@@ -5,5 +5,5 @@
 export const CONFIG = {
   supabaseUrl: "",
   supabaseAnonKey: "",
-  teamName: "D-jeugd",
+  teamName: "DSS D-jeugd",
 };
